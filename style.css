@@ -304,6 +304,10 @@ summary::-webkit-details-marker {
     background-color : #F8F8F8;
     position : relative;
 }
+
+.item__img {
+    width: 360px;
+}
     
 .item__text {
     padding : 24px 16px;
@@ -446,7 +450,7 @@ summary::-webkit-details-marker {
     justify-content : space-between;
     align-items : center;
     padding : 87px 230px 126px 228px;
-    background : url(img/subscribe_background.jpg), 0 -169px /100% 246.875% no-repeat lightgray;
+    background : url(img/subscribe_background.webp), 0 -169px /100% 246.875% no-repeat lightgray;
 }
     
 .guide {
@@ -611,6 +615,7 @@ summary::-webkit-details-marker {
     .content__header {
         margin-bottom : 73px;
     }
+    
     .content {
         display : grid;
         grid-template-columns : 1fr 1fr;
@@ -620,6 +625,16 @@ summary::-webkit-details-marker {
         padding-right : 2%;
         margin-bottom : 33px;
     }
+
+    .item {
+        width: 100%;
+    }
+
+    .item__img {
+        width: 100%;
+    }
+
+
     .features {
         flex-direction : column;
         align-items : center;
@@ -718,7 +733,7 @@ summary::-webkit-details-marker {
         width : 100%;
     }
     .item__img {
-        max-width : 100%;
+        width : 100%;
     }
     .content__btn {
         margin-bottom : 85px;
