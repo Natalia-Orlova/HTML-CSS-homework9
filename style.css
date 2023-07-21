@@ -245,6 +245,10 @@ summary::-webkit-details-marker {
     justify-content : center;
     align-items : center;
 }
+
+.offer__img {
+    width: 100%;
+}
     
 .offers__text {
     position : absolute;
