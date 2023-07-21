@@ -714,7 +714,7 @@ summary::-webkit-details-marker {
         display : none;
     }
     .item__long {
-        background-image : url(img/offers_accesories.svg);
+        background-image : url(img/offers_accesories.avif);
         background-position : center center;
         background-size : cover;
         width : 100%;
